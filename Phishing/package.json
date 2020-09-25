@@ -1,0 +1,15 @@
+{
+  "name": "phising",
+  "version": "1.0.0",
+  "description": "This is a simple phising site meant for educational purposes only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Singh Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
