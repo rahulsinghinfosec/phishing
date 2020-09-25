@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .outside
+        {
+            border:1px solid lightskyblue;
+            width: 400px;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5rem;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containter outside">
+        <h1 class="text-secondary">Login</h1>
+        <form method = "POST",action="login_details.php">
+            <div class="form-group">
+                <label for="emailId">Email</label>
+                <input type="email" id="emailId" name="usermail" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="userpass" class="form-control">
+            </div>
+            <button onclick="myFunction();" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
